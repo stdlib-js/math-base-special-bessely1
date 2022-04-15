@@ -41,30 +41,32 @@ The [Bessel function of the second kind][bessel-second-kind] of order one is def
 
 <!-- ./intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-bessely1
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var y1 = require( '@stdlib/math-base-special-bessely1' );
+y1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.y1;
+})();
+</script>
 ```
 
 #### y1( x )
@@ -106,9 +108,14 @@ v = y1( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var y1 = require( '@stdlib/math-base-special-bessely1' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x;
 var i;
@@ -117,6 +124,11 @@ for ( i = 0; i < 100; i++ ) {
     x = randu() * 10.0;
     console.log( 'y1(%d) = %d', x, y1( x ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -205,11 +217,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/umd
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/umd
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/umd
 
 <!-- </related-links> -->
 
