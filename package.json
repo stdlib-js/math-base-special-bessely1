@@ -58,7 +58,7 @@
     "@stdlib/time-current-year": "^0.0.x",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "faucet": "^0.0.3"
+    "tap-min": "2.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
