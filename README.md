@@ -30,10 +30,14 @@ The [Bessel function of the second kind][bessel-second-kind] of order one is def
 
 <!-- <equation class="equation" label="eq:bessel_second_kind_order_one" align="center" raw="Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{1}{\pi} \int_0^\infty  \left[ e^t - e^{-t} \right]  e^{-x \sinh t} \, dt" alt="Bessel function of the second kind of order one"> -->
 
-<div class="equation" align="center" data-raw-text="Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{1}{\pi} \int_0^\infty  \left[ e^t - e^{-t} \right]  e^{-x \sinh t} \, dt" data-equation="eq:bessel_second_kind_order_one">
+```math
+Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{1}{\pi} \int_0^\infty  \left[ e^t - e^{-t} \right]  e^{-x \sinh t} \, dt
+```
+
+<!-- <div class="equation" align="center" data-raw-text="Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{1}{\pi} \int_0^\infty  \left[ e^t - e^{-t} \right]  e^{-x \sinh t} \, dt" data-equation="eq:bessel_second_kind_order_one">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/math/base/special/bessely1/docs/img/equation_bessel_second_kind_order_one.svg" alt="Bessel function of the second kind of order one">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -41,38 +45,30 @@ The [Bessel function of the second kind][bessel-second-kind] of order one is def
 
 <!-- ./intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-bessely1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-y1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var y1 = require( 'path/to/vendor/umd/math-base-special-bessely1/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.y1;
-})();
-</script>
+var y1 = require( '@stdlib/math-base-special-bessely1' );
 ```
 
 #### y1( x )
@@ -114,14 +110,9 @@ v = y1( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var y1 = require( '@stdlib/math-base-special-bessely1' );
 
 var x;
 var i;
@@ -130,11 +121,6 @@ for ( i = 0; i < 100; i++ ) {
     x = randu() * 10.0;
     console.log( 'y1(%d) = %d', x, y1( x ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -149,9 +135,9 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/besselj0`][@stdlib/math/base/special/besselj0]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the first kind of order zero.</span>
--   <span class="package-name">[`@stdlib/math/base/special/besselj1`][@stdlib/math/base/special/besselj1]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the first kind of order one.</span>
--   <span class="package-name">[`@stdlib/math/base/special/bessely0`][@stdlib/math/base/special/bessely0]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the second kind of order zero.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/besselj0`][@stdlib/math/base/special/besselj0]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the first kind of order zero.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/besselj1`][@stdlib/math/base/special/besselj1]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the first kind of order one.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/bessely0`][@stdlib/math/base/special/bessely0]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the second kind of order zero.</span>
 
 </section>
 
@@ -205,7 +191,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -223,11 +209,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0/tree/umd
+[@stdlib/math/base/special/besselj0]: https://github.com/stdlib-js/math-base-special-besselj0
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/umd
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
 
-[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0/tree/umd
+[@stdlib/math/base/special/bessely0]: https://github.com/stdlib-js/math-base-special-bessely0
 
 <!-- </related-links> -->
 
