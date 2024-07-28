@@ -65,7 +65,7 @@ Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{
 To use in Observable,
 
 ```javascript
-y1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js' )
+y1 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var y1 = require( 'path/to/vendor/umd/math-base-special-bessely1/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -134,7 +134,7 @@ v = y1( NaN );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
