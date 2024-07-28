@@ -63,7 +63,7 @@ Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{
 ## Usage
 
 ```javascript
-import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@esm/index.mjs';
+import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.2.2-esm/index.mjs';
 ```
 
 #### y1( x )
@@ -112,7 +112,7 @@ v = y1( NaN );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@esm/index.mjs';
+import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.2.2-esm/index.mjs';
 
 var x;
 var i;
