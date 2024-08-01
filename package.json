@@ -42,9 +42,9 @@
     "@stdlib/constants-float64-pi": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/constants-float64-sqrt-pi": "^0.2.2",
-    "@stdlib/math-base-special-besselj1": "^0.2.1",
+    "@stdlib/math-base-special-besselj1": "^0.2.2",
     "@stdlib/math-base-special-ln": "^0.2.4",
-    "@stdlib/math-base-special-sincos": "^0.2.1",
+    "@stdlib/math-base-special-sincos": "^0.3.0",
     "@stdlib/math-base-special-sqrt": "^0.2.2"
   },
   "devDependencies": {
