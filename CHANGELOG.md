@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-01)
+
+<section class="features">
+
+### Features
+
+-   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396)
+
+</section>
+
+<!-- /.features -->
 
 <section class="reverts">
 
@@ -22,6 +32,7 @@
 
 <details>
 
+-   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - **feat:** add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396) _(by Shabareesh Shetty, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`75cbf89`](https://github.com/stdlib-js/stdlib/commit/75cbf899216dadede64e77994fe058932facc51b) - **chore:** replace manual `for` loop in examples [(#6308)](https://github.com/stdlib-js/stdlib/pull/6308) _(by Harsh, stdlib-bot)_
 -   [`52c0299`](https://github.com/stdlib-js/stdlib/commit/52c02996d6ddb17cd20e7d166c7d0605401a33d7) - **bench:** refactor random number generation [(#5397)](https://github.com/stdlib-js/stdlib/pull/5397) _(by Saurabh Singh)_
@@ -40,12 +51,14 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Gunj Joshi
 -   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
 -   Saurabh Singh
+-   Shabareesh Shetty
 
 </section>
 
