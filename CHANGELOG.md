@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-27)
+## Unreleased (2025-09-09)
 
 <section class="features">
 
@@ -32,6 +32,8 @@
 
 <details>
 
+-   [`3edf54a`](https://github.com/stdlib-js/stdlib/commit/3edf54aeebc16d3a3b3e5c92ecddb0948aec1930) - **chore:** add structured package data for packages in `math/base/special` [(#8046)](https://github.com/stdlib-js/stdlib/pull/8046) _(by Gunj Joshi, Athan Reines)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`d609d1f`](https://github.com/stdlib-js/stdlib/commit/d609d1f9ac00a6ffc6a91937e95f875c938d02e8) - **feat:** add C implementation for `math/base/special/bessely1` [(#4396)](https://github.com/stdlib-js/stdlib/pull/4396) _(by Shabareesh Shetty, stdlib-bot, Gunj Joshi, Karan Anand)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
@@ -52,8 +54,9 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Harsh
 -   Karan Anand
