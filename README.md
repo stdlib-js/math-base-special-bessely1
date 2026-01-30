@@ -63,7 +63,7 @@ Y_1(x) = \frac{1}{\pi} \int_0^\pi \sin(x \sin\theta - \theta) \, d\theta -\frac{
 ## Usage
 
 ```javascript
-import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@esm/index.mjs';
+import y1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.3.0-esm/index.mjs';
 ```
 
 #### y1( x )
@@ -113,7 +113,7 @@ v = y1( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import bessely1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@esm/index.mjs';
+import bessely1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-bessely1@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
